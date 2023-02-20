@@ -917,15 +917,13 @@
 <p>The username can be specified with the --username flag. If not set,
 it defaults to your own username.</p>
 <p>The number of statuses returned can be specified with the --limit
-flag. If not set, it will return all statuses for the user. (This
-does not currently work if you also use the --json flag. This is
-a bug, and I'll fix it eventually.)</p>
+flag. If not set, it will return all statuses for the user.</p>
 <p>See the statuslog commands to get statuses for all users.</p>
 <div class="highlight"><pre><span></span><code>clilol status get [flags]
 </code></pre></div>
 <h3 id="options">Options</h3>
 <div class="highlight"><pre><span></span><code>  -h, --help              help for get
-  -l, --limit int         how many status(es) to get (default all; ignored if --json is set)
+  -l, --limit int         how many status(es) to get (default all)
   -u, --username string   username whose status(es) to get (default &quot;mcornick&quot;)
 </code></pre></div>
 <h3 id="options-inherited-from-parent-commands">Options inherited from parent commands</h3>
