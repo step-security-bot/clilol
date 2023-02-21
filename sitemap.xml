@@ -2,92 +2,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mcornick.com/clilol/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_completion/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_completion_bash/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_completion_fish/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_completion_powershell/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_completion_zsh/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_directory/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_directory_list/</loc>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_man/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_markdown-doc/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_preference/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_preference_set/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_purl/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_purl_create/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_purl_delete/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_purl_get/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_purl_list/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_service/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_service_info/</loc>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_status-bio/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_status-bio_get/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_status-bio_update/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_status/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_status_get/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_status_list/</loc>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_status_post/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_status_update/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mcornick.com/clilol/clilol_statuslog/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mcornick.com/clilol/clilol_statuslog_get/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <loc>https://mcornick.com/clilol/clilol_statuslog_list/</loc>
+         <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
