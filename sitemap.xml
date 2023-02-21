@@ -46,6 +46,31 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://mcornick.com/clilol/clilol_dns/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_dns_create/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_dns_delete/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_dns_list/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mcornick.com/clilol/clilol_dns_update/</loc>
+         <lastmod>2023-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://mcornick.com/clilol/clilol_man/</loc>
          <lastmod>2023-02-21</lastmod>
          <changefreq>daily</changefreq>
