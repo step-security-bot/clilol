@@ -276,43 +276,30 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#or-for-docker-hub" class="md-nav__link">
-    or, for Docker Hub
-  </a>
-  
-    <nav class="md-nav" aria-label="or, for Docker Hub">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#configuration-file" class="md-nav__link">
     Configuration File
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#environment-variables" class="md-nav__link">
     Environment Variables
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#contributing-to-clilol" class="md-nav__link">
     Contributing to clilol
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#etcetera" class="md-nav__link">
     Etcetera
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1376,43 +1363,30 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#or-for-docker-hub" class="md-nav__link">
-    or, for Docker Hub
-  </a>
-  
-    <nav class="md-nav" aria-label="or, for Docker Hub">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#configuration-file" class="md-nav__link">
     Configuration File
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#environment-variables" class="md-nav__link">
     Environment Variables
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#contributing-to-clilol" class="md-nav__link">
     Contributing to clilol
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#etcetera" class="md-nav__link">
     Etcetera
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1447,6 +1421,8 @@
   
 
 
+  <h1>Home</h1>
+
 <p><strong>clilol</strong> is a CLI for the various fun services offered by <a href="https://omg.lol/">omg.lol</a>. All of the services supported by the <a href="https://api.omg.lol">omg.lol API</a> are supported.</p>
 <p><img alt="Screenshot" src="clilol.gif" title="Screenshot" /></p>
 <p>Please see the links in the navigation menu to the left to learn about all the different commands provided by clilol.</p>
@@ -1468,14 +1444,12 @@
 <div class="tabbed-block">
 <p>I maintain container images on <a href="https://github.com/mcornick/clilol/pkgs/container/clilol">GitHub</a> and <a href="https://hub.docker.com/repository/docker/mcornick/clilol">Docker Hub</a>.</p>
 <div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>ghcr.io/mcornick/clilol
-<span class="c1"># or, for Docker Hub</span>
 docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>mcornick/clilol
 </code></pre></div>
 <p>Container manifests are signed with <a href="https://docs.sigstore.dev/cosign/overview/">Cosign</a>. The signatures are created with Cosign's "keyless" mode, which requires Cosign version &gt;= 2.0.0:</p>
 <p>```bash
-cosign verify ghcr.io/mcornick/clilol --certificate-identity-regexp "https://github.com/mcornick/clilol.*" --certificate-oidc-issuer "https://token.actions.githubusercontent.com"</p>
-<h1 id="or-for-docker-hub">or, for Docker Hub</h1>
-<p>cosign verify mcornick/clilol --certificate-identity-regexp "https://github.com/mcornick/clilol.*" --certificate-oidc-issuer "https://token.actions.githubusercontent.com"</p>
+cosign verify ghcr.io/mcornick/clilol --certificate-identity-regexp "https://github.com/mcornick/clilol.<em>" --certificate-oidc-issuer "https://token.actions.githubusercontent.com"
+cosign verify mcornick/clilol --certificate-identity-regexp "https://github.com/mcornick/clilol.</em>" --certificate-oidc-issuer "https://token.actions.githubusercontent.com"</p>
 </div>
 </div>
 </div>
