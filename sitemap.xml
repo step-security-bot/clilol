@@ -71,6 +71,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://mcornick.com/clilol/clilol_delete_status/</loc>
+         <lastmod>2023-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://mcornick.com/clilol/clilol_delete_weblog/</loc>
          <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
