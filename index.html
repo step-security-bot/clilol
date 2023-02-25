@@ -273,6 +273,68 @@
     Installation
   </a>
   
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#homebrew" class="md-nav__link">
+    Homebrew
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scoop" class="md-nav__link">
+    Scoop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#container-images" class="md-nav__link">
+    Container Images
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#binaries-and-linux-packages" class="md-nav__link">
+    Binaries and Linux packages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yum-repository" class="md-nav__link">
+    YUM Repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apt-repository" class="md-nav__link">
+    APT Repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arch-user-repository" class="md-nav__link">
+    Arch User Repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#from-source" class="md-nav__link">
+    From source
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1360,6 +1422,68 @@
     Installation
   </a>
   
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#homebrew" class="md-nav__link">
+    Homebrew
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scoop" class="md-nav__link">
+    Scoop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#container-images" class="md-nav__link">
+    Container Images
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#binaries-and-linux-packages" class="md-nav__link">
+    Binaries and Linux packages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yum-repository" class="md-nav__link">
+    YUM Repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apt-repository" class="md-nav__link">
+    APT Repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arch-user-repository" class="md-nav__link">
+    Arch User Repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#from-source" class="md-nav__link">
+    From source
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1428,39 +1552,28 @@
 <p>Please see the links in the navigation menu to the left to learn about all the different commands provided by clilol.</p>
 <h2 id="installation">Installation</h2>
 <p>You can install clilol in any of these ways. (These are the only supported builds of omglol. I don't submit them to "official" repositories, at least not yet. If you find a problem with anyone else's build, please try my builds instead.)</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Homebrew</label><label for="__tabbed_1_2">Scoop</label><label for="__tabbed_1_3">Container Images</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
+<h3 id="homebrew">Homebrew</h3>
 <p>I maintain a <a href="https://brew.sh/">Homebrew</a> tap.</p>
 <div class="highlight"><pre><span></span><code>brew<span class="w"> </span>install<span class="w"> </span>mcornick/tap/clilol
 </code></pre></div>
-</div>
-<div class="tabbed-block">
+<h3 id="scoop">Scoop</h3>
 <p>I maintain a <a href="https://scoop.sh/">Scoop</a> bucket.</p>
 <div class="highlight"><pre><span></span><code><span class="n">scoop</span> <span class="n">bucket</span> <span class="n">add</span> <span class="n">mcornick</span> <span class="n">https</span><span class="p">://</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">mcornick</span><span class="p">/</span><span class="n">scoop-bucket</span><span class="p">.</span><span class="n">git</span>
 <span class="n">scoop</span> <span class="n">install</span> <span class="n">clilol</span>
 </code></pre></div>
-</div>
-<div class="tabbed-block">
+<h3 id="container-images">Container Images</h3>
 <p>I maintain container images on <a href="https://github.com/mcornick/clilol/pkgs/container/clilol">GitHub</a> and <a href="https://hub.docker.com/repository/docker/mcornick/clilol">Docker Hub</a>.</p>
 <div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>ghcr.io/mcornick/clilol
 docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>mcornick/clilol
 </code></pre></div>
 <p>Container manifests are signed with <a href="https://docs.sigstore.dev/cosign/overview/">Cosign</a>. The signatures are created with Cosign's "keyless" mode, which requires Cosign version &gt;= 2.0.0:</p>
-<p>```bash
-cosign verify ghcr.io/mcornick/clilol --certificate-identity-regexp "https://github.com/mcornick/clilol.<em>" --certificate-oidc-issuer "https://token.actions.githubusercontent.com"
-cosign verify mcornick/clilol --certificate-identity-regexp "https://github.com/mcornick/clilol.</em>" --certificate-oidc-issuer "https://token.actions.githubusercontent.com"</p>
-</div>
-</div>
-</div>
-<p>```</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:5"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><input id="__tabbed_2_4" name="__tabbed_2" type="radio" /><input id="__tabbed_2_5" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Binaries and Linux packages</label><label for="__tabbed_2_2">YUM Repository</label><label for="__tabbed_2_3">APT Repository</label><label for="__tabbed_2_4">Arch User Repository</label><label for="__tabbed_2_5">From source</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>cosign<span class="w"> </span>verify<span class="w"> </span>ghcr.io/mcornick/clilol<span class="w"> </span>--certificate-identity-regexp<span class="w"> </span><span class="s2">&quot;https://github.com/mcornick/clilol.*&quot;</span><span class="w"> </span>--certificate-oidc-issuer<span class="w"> </span><span class="s2">&quot;https://token.actions.githubusercontent.com&quot;</span>
+cosign<span class="w"> </span>verify<span class="w"> </span>mcornick/clilol<span class="w"> </span>--certificate-identity-regexp<span class="w"> </span><span class="s2">&quot;https://github.com/mcornick/clilol.*&quot;</span><span class="w"> </span>--certificate-oidc-issuer<span class="w"> </span><span class="s2">&quot;https://token.actions.githubusercontent.com&quot;</span>
+</code></pre></div>
+<h3 id="binaries-and-linux-packages">Binaries and Linux packages</h3>
 <p>I maintain binary releases on GitHub <a href="https://github.com/mcornick/clilol/releases">here</a>. Releases are built for macOS (universal), Linux (i386, amd64, arm64, and armv6) and Windows (i386, amd64). Linux packages are built in RPM, DEB, APK, and Arch Linux pkg.tar.zst formats.</p>
 <p>Binary checksums included on the release pages are signed with my <a href="https://github.com/mcornick.gpg">GPG key</a>.</p>
-</div>
-<div class="tabbed-block">
+<h3 id="yum-repository">YUM Repository</h3>
 <p>RPM packages are also available from my Gemfury repository.</p>
 <div class="highlight"><pre><span></span><code># /etc/yum.repos.d/mcornick.repo
 [fury]
@@ -1469,26 +1582,20 @@ baseurl=https://yum.fury.io/mcornick/
 enabled=1
 gpgcheck=0
 </code></pre></div>
-</div>
-<div class="tabbed-block">
+<h3 id="apt-repository">APT Repository</h3>
 <p>DEB packages are also available from my Gemfury repository.</p>
 <div class="highlight"><pre><span></span><code># /etc/apt/sources.list.d/mcornick.list
 deb [trusted=yes] https://apt.fury.io/mcornick/ /
 </code></pre></div>
-</div>
-<div class="tabbed-block">
+<h3 id="arch-user-repository">Arch User Repository</h3>
 <p>I maintain an <a href="https://wiki.archlinux.org/title/Arch_User_Repository">AUR</a> for clilol.</p>
 <div class="highlight"><pre><span></span><code>git clone https://github.com/mcornick/clilol-aur.git
 cd clilol-aur
 makepkg -i
 </code></pre></div>
-</div>
-<div class="tabbed-block">
+<h3 id="from-source">From source</h3>
 <p>The usual: <code>go install github.com/mcornick/clilol@latest</code></p>
 <p>While I do not build or test for platforms other than the ones listed under the Binaries tab, clilol <em>should</em> still work on any platform supported by Go, and if you find that it does not, feel free to file a GitHub issue and I'll take a look.</p>
-</div>
-</div>
-</div>
 <h2 id="configuration-file">Configuration File</h2>
 <p>clilol expects a configuration file to specify your address, login email, and API key. You can find your API key on <a href="https://home.omg.lol/account">your omg.lol account page</a>.</p>
 <p>The configuration file should be named either <code>config.yaml</code>, <code>config.toml</code> or <code>config.json</code> depending on which format you prefer, and should be located in one of these directories:</p>
@@ -1499,7 +1606,7 @@ makepkg -i
 <li><code>%AppData%\clilol</code> (Windows)</li>
 </ul>
 <p>The file should look like one of these, substituting your own details:</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">config.yaml</label><label for="__tabbed_3_2">config.toml</label><label for="__tabbed_3_3">config.json</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">config.yaml</label><label for="__tabbed_1_2">config.toml</label><label for="__tabbed_1_3">config.json</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="nn">---</span>
